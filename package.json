@@ -1,13 +1,15 @@
 {
   "name": "@onshorehq/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Onshore client for Node.js. No runtime dependencies.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE",
+    "NOTICE"
   ],
   "engines": {
     "node": ">=20"
@@ -34,5 +36,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Onshore-HQ/onshore-node.git"
-  }
+  },
+  "license": "Apache-2.0"
 }

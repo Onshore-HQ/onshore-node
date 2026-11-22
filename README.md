@@ -24,3 +24,7 @@ const [{ token }] = await vault.tokenize("v_live_1", [{ field: "national_id", va
 ```
 
 Full reference: https://docs.onshorevault.com/developers/sdks/node/
+
+## Licence
+
+Apache-2.0. Copyright 2026 Flowsplus Services. See [LICENSE](LICENSE) and [NOTICE](NOTICE). Contributions need the [Contributor Licence Agreement](CLA.md).
