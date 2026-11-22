@@ -1,0 +1,38 @@
+{
+  "name": "@onshorehq/sdk",
+  "version": "0.1.0",
+  "description": "Onshore client for Node.js. No runtime dependencies.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://docs.onshorevault.com/developers/sdks/node/",
+  "keywords": [
+    "onshore",
+    "data-residency",
+    "tokenization",
+    "vault",
+    "pii"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onshore-HQ/onshore-node.git"
+  }
+}
